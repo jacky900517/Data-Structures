@@ -85,7 +85,7 @@ void doQ1()
 		cout << arr2[i] << " ";
 	}
 
-	prefixSumRecursive1(arr2, n - 1);
+	prefixSumRecursive2(arr2, n - 1);
 
 	cout << "\nModified array: ";
 	for (int i = 0; i < n; i++)
@@ -431,3 +431,4 @@ int main()
 }
 
 // ============== Main Program Ends Here ================
+

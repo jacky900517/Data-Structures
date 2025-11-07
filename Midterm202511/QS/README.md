@@ -1,3 +1,4 @@
 Sunny表示他應該有改到第二題中的.a .b兩小題才對，但是紙本題目中的卻還是舊版本的，跟源碼(Midterm202511.cpp)中的使用邏輯剛好相反，
 所以寫成other來跟自己比較是不是subpoly或是自己跑去跟other比較是不是subpoly，這兩種邏輯都給對，
-另外LinledBag.h中的add函數在源碼中是空白只會回傳false，此版本已經補上正常插入的code。
+另外LinledBag.h中的add函數在源碼中是空白只會回傳false，此版本已經補上正常插入的code，
+Midterm2025.cpp中line 88的 prefixSumRecursive函數呼叫出錯，兩個都是呼叫同一個函數，已修改成呼叫不同的2個 prefixSumRecursive函數。
